@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dougl\\Documents\\AtividadesLP2\\AtividadePOO\\Atividade1.csproj",
+      "projectUniqueName": "C:\\Users\\dougl\\Documents\\Atividade1POO\\Atividade1.csproj",
       "projectName": "Atividade1",
-      "projectPath": "C:\\Users\\dougl\\Documents\\AtividadesLP2\\AtividadePOO\\Atividade1.csproj",
+      "projectPath": "C:\\Users\\dougl\\Documents\\Atividade1POO\\Atividade1.csproj",
       "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dougl\\Documents\\AtividadesLP2\\AtividadePOO\\obj\\",
+      "outputPath": "C:\\Users\\dougl\\Documents\\Atividade1POO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

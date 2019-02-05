@@ -48,7 +48,7 @@ namespace Atividade1
                             if (ag != null)
                             {
                                 cc.Id = id_contaCorrente;
-                                ag.AddConta(cc,null,"CC");
+                                ag.addContaCorrente(cc);
                                 id_contaCorrente++;
                             }
                             else
@@ -73,7 +73,7 @@ namespace Atividade1
                             {
 
                                 cp.Id = id_contaPoupanca;
-                                ag.AddConta(null, cp, "CP");
+                                ag.addContaPoupanca(cp);
                                 id_contaPoupanca++;
                             }
                             else

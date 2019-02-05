@@ -12,19 +12,14 @@ namespace Atividade1
         List<ContaPoupanca> contas_poupanca = new List<ContaPoupanca>();
         List<Solicitacao> solicitacoes = new List<Solicitacao>();
 
-        public void AddConta(ContaCorrente cc, ContaPoupanca cp, string tipo)
-        {
-            if(tipo == "CC")
-            {
-                contas_corrente.Add(cc);
-                WriteLine("Dados da Conta\n" + "Numero: "  + cc.Id + "\n" + "Titular: " + cc.Titular + "\n" + "Conta Criada com sucesso\n");
-            }
-            else
-            {
-                contas_poupanca.Add(cp);
-                WriteLine("Dados da Conta\n" + "Numero: " + cc.Id + "\n" + "Titular: " + cc.Titular + "\n" + "Conta Criada com sucesso\n");
-                
-            }
+        public void addContaCorrente(ContaCorrente cc){
+            contas_corrente.Add(cc);
+            WriteLine("Dados da Conta\n" + "Numero: "  + cc.Id + "\n" + "Titular: " + cc.Titular + "\n" + "Conta Criada com sucesso\n");
+        }
+        public void addContaPoupanca(ContaPoupanca cp){
+            contas_poupanca.Add(cp);
+            WriteLine("Dados da Conta\n" + "Numero: " + cp.Id + "\n" + "Titular: " + cp.Titular + "\n" + "Conta Criada com sucesso\n");
+
         }
         
 
